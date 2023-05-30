@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <MS_x0020_SQL Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>MS SQL</Alias>
+        <ConnectionStringEncrypted>9FzRoe9KSwVFYYSA5Fzif9Fa16FWX9O8Rke5bMM942ffOtEL1wOpzUZG2axpTKQ/0Rj3KM1MS8VpQf3c+RjnP/NUwQLFUfvFf0+hgGRM9mc=</ConnectionStringEncrypted>
+        <Name>MS SQL</Name>
+      </MS_x0020_SQL>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Models Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Models</Alias>
+        <Columns isList="true" count="13">
+          <value>id,System.Int32</value>
+          <value>shomarebime,System.String</value>
+          <value>shomarepersonely,System.String</value>
+          <value>name,System.String</value>
+          <value>family,System.String</value>
+          <value>namefather,System.String</value>
+          <value>codemeli,System.String</value>
+          <value>shenasname,System.String</value>
+          <value>date,System.String</value>
+          <value>job,System.String</value>
+          <value>mahalesodor,System.String</value>
+          <value>jens,System.String</value>
+          <value>meleyat,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>88db23a0bcc74dfeb5f583c1d54f4796</Key>
+        <Name>Models</Name>
+        <NameInSource>MS SQL</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from Models</SqlCommand>
+      </Models>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>9a7559eb9bc441bf8d0c5b9f86acca29</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="4" type="Page" isKey="true">
+      <Border>All;Black;2;Solid;False;4;Black</Border>
+      <Brush>[242:242:242]</Brush>
+      <Components isList="true" count="2">
+        <ReportTitle Ref="5" type="ReportTitleBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,13.22,0.5</ClientRectangle>
+          <Components isList="true" count="1">
+            <ReportTitleText Ref="6" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[238:70:104]</Brush>
+              <ClientRectangle>0,0,13.22,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,20,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>ReportTitleText</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>مشخصات کارکنان</Text>
+              <TextBrush>White</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </ReportTitleText>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ReportTitle</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </ReportTitle>
+        <Data Ref="7" type="Stimulsoft.Report.Components.Table.StiTable" isKey="true">
+          <Border>Top;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,1.1,13.22,0.9</ClientRectangle>
+          <ColumnCount>12</ColumnCount>
+          <Components isList="true" count="36">
+            <Data_Cell1 Ref="8" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0,0,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>0</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell1</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>ملیت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell1>
+            <Data_Cell2 Ref="9" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>1.1,0,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>1</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell2</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>جنسیت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell2>
+            <Data_Cell3 Ref="10" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.2,0,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>2</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell3</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>شغل</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell3>
+            <Data_Cell4 Ref="11" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>3.3,0,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>3</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell4</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>تاریخ تولد</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell4>
+            <Data_Cell5 Ref="12" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>4.4,0,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>4</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell5</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>محل صدور</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell5>
+            <Data_Cell6 Ref="13" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>5.5,0,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>5</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell6</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>شماره پرسنلی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell6>
+            <Data_Cell7 Ref="14" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>6.5,0,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>6</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell7</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>شماره بیمه</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell7>
+            <Data_Cell8 Ref="15" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>7.5,0,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>7</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell8</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>شماره شناسنامه</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell8>
+            <Data_Cell9 Ref="16" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.5,0,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>8</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell9</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>کدملی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell9>
+            <Data_Cell10 Ref="17" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>9.5,0,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>9</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell10</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>نام پدر</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell10>
+            <Data_Cell11 Ref="18" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>10.5,0,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>10</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell11</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>نام خانوادگی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell11>
+            <Data_Cell12 Ref="19" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>11.5,0,1.72,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>11</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell12</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>نام</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell12>
+            <Data_Cell13 Ref="20" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.3,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>12</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell13</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.meleyat}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell13>
+            <Data_Cell14 Ref="21" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.1,0.3,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>13</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell14</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.jens}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell14>
+            <Data_Cell15 Ref="22" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.2,0.3,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>14</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell15</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.job}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell15>
+            <Data_Cell16 Ref="23" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.3,0.3,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>15</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell16</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.date}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell16>
+            <Data_Cell17 Ref="24" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.4,0.3,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>16</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell17</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.mahalesodor}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell17>
+            <Data_Cell18 Ref="25" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.5,0.3,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>17</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell18</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.shomarepersonely}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell18>
+            <Data_Cell19 Ref="26" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.5,0.3,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>18</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell19</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.shomarebime}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell19>
+            <Data_Cell20 Ref="27" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.5,0.3,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>19</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell20</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.shenasname}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell20>
+            <Data_Cell21 Ref="28" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>8.5,0.3,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>20</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell21</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.codemeli}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell21>
+            <Data_Cell22 Ref="29" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.5,0.3,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>21</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell22</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.namefather}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell22>
+            <Data_Cell23 Ref="30" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.5,0.3,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>22</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell23</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.family}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell23>
+            <Data_Cell24 Ref="31" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.5,0.3,1.72,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>23</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell24</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Models.name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Data_Cell24>
+            <Data_Cell25 Ref="32" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0,0.6,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>24</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell25</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell25>
+            <Data_Cell26 Ref="33" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>1.1,0.6,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>25</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell26</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell26>
+            <Data_Cell27 Ref="34" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.2,0.6,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>26</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell27</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell27>
+            <Data_Cell28 Ref="35" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>3.3,0.6,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>27</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell28</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell28>
+            <Data_Cell29 Ref="36" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>4.4,0.6,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>28</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell29</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell29>
+            <Data_Cell30 Ref="37" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>5.5,0.6,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>29</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell30</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell30>
+            <Data_Cell31 Ref="38" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>6.5,0.6,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>30</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell31</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell31>
+            <Data_Cell32 Ref="39" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>7.5,0.6,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>31</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell32</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell32>
+            <Data_Cell33 Ref="40" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.5,0.6,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>32</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell33</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell33>
+            <Data_Cell34 Ref="41" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>9.5,0.6,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>33</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell34</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell34>
+            <Data_Cell35 Ref="42" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>10.5,0.6,1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <ID>34</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell35</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell35>
+            <Data_Cell36 Ref="43" type="TableCell" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>11.5,0.6,1.72,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Yekan Bakh Medium,9</Font>
+              <ID>35</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Data_Cell36</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <TextBrush>Black</TextBrush>
+            </Data_Cell36>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Models</DataSourceName>
+          <Filters isList="true" count="0" />
+          <FooterRowsCount>1</FooterRowsCount>
+          <HeaderRowsCount>1</HeaderRowsCount>
+          <Name>Data</Name>
+          <NumberID>36</NumberID>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <RowCount>3</RowCount>
+          <Sort isList="true" count="2">
+            <value>DESC</value>
+            <value>name</value>
+          </Sort>
+        </Data>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>9a9d956a139542c9a7c12e09f5d14572</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>8.5</PageHeight>
+      <PageWidth>14</PageWidth>
+      <PaperSize>Legal</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="44" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,8.25,Regular,Point,False,0</Font>
+        <ImageBytes>iVBORw0KGgoAAAANSUhEUgAAAQoAAAA9CAYAAABVwydoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2tpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDA2IDc5LjE2
+NDY0OCwgMjAyMS8wMS8xMi0xNTo1MjoyOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxN2FhOTk5Ni1hZDNlLTVjNGMtOThjMi04ODJm
+NzhiMzI4ZjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkQ2RDBBNkU2MzVCMTFFQzgwNThF
+ODNFQTkxQzRERkUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkQ2RDBBNkQ2MzVCMTFFQzgw
+NThFODNFQTkxQzRERkUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjIgKFdp
+bmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NEYz
+MUIzQkM1QjJFMTFFQ0EzQkZCNTE2NkZFMDJFMUMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6
+NEYzMUIzQkQ1QjJFMTFFQ0EzQkZCNTE2NkZFMDJFMUMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwv
+cmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7MHDf+AAAR9klEQVR42uxd
+aYxsRRU+b3gKiIL9DO4L9iMgkRjNHWLAJVH7uUFUxB70hyiKPS4gJgI9cUlcwzSCEgFlmrjhBq9x
+JQoyV4K4a18UEUXwdVyJiLyrgoIgYB26jl1Tr+re2u7tnqFOcvLe3L5LVZ1TX506derUpiRJINLM
+UpfxsvD3EuNeLPvs0HA4NL432zRfZ9H2ZPxCxl9nfLfvy+ZiX4wUaUMSgvJxIUAiAkWkSBuPdmd8
+FuMTGD+Q8eYIFJEiRZLpDMbH8/8/mE9BIlBEihTp//RGxm8W/t47AsX6pEZsgo1F8/PzsyLTkxmf
+w3iTcO1BfCoSgWId0QrnSFGmoemDjE9T9Gf0UTygLqBAxGxJHEdGOytiO+MO4zasXTKMtAFkyqyK
+acr0VYxPqfojJkCBgRarEsfgiwm1+Kiyk/G9nHfyawkHhrZwf5crWKQNJFMGFtOQ6RsYnwf6lY17
+eNnj1GPKtMyBsyNZWQ1+DaNxcs7yc1WDbYcrNoG7rNwbjULV11mmDCzqHEBP5vXdq+Ce2xn/Zz0D
+RcJNt3slxN6+jqyVZW4dlBHe09OYro2K2nYHV6KOMF3s8m+iojc3EECErK+3TGtybh7J+FRY67hU
+Efap2+oCCkTOVOLcE/mHCrRv8GvDdWCaNw0VigjrtaR4x2oFnWa1pGPQPY0NAhKh6jurMlX5JD7F
+eDeDe29ifGuIj5pEbWWMtxnO6xLpuVTRuCZeYrxnpHje5ZugMCMH/P2294gjigymS8L9HQkIsYwL
+XJE60nWs62IgJTK1Upp89LT5rmlb+/oGbL4Rsr7BZMqsipXhcLhYAUhgtOWHwTza8s+hfBSbA1aC
+nDxESwoh23iHuwaKaPJNAqiWpIAjh3vE74q0IH035SNLS1LWRf5sIgEUfqvv2f5txcg6EuqQSJ2q
+w9srDyjfOnSoqvo6yRQBgfsm1siUXcvYb/2AbfMyxmdaugt+F+rjdfooOpJgc95xtjDeqjDjWjPs
+r0gk5VQp80DzzDYFAK0EqGui+P5W/j3keUUnaa3zaUfI+gaXaUDnJvokPmHZX3HF4xfrESjkRlvi
+o2jOG7mnGFVnVZEzSalUNNI8k/PRKleY0SHbt6coT19hkm8UoPCtr7NMmeVQlUyBD6af5wOqDf2D
+8U9DAoUcJ1FV8IgspLREWLNMmQRmDc18W/dMpnGEdSoqY1kH2AjkW18vmTKwUMrUM74CpxsfA7f9
+Gt9hfEtIoJAjL+sy9/MZU2SbVYCeYupQ1On7ivr2FWDZCljGhufz02jfRuD31ypT7pOwlamODuff
+cLH6MQfFeSGFN82AqxDTio7BOxPF9ZZCCZIS01YGNHH0aMPEA5/AWm98DvrMTpmlYrcLOkmrpG1U
+9c5rlHfb4Z5O4Pq2Z1CmKnoN4wsY7+vY1pjV6rKQwttco6LoHHiZoLCJogO3hP9TRBx1/qZCMTAO
+g5Y2dWvjXS7AtMDkp+jJVFOHjHMiKFZLoRw9/g1VWcvM0lzRHqswcarlJeVv8vI3YNdVHd30ryqL
+UVX2XALzpuKZHcLo3SgABZP60jQ7Fb6f+8iUTS1sZVpGL+d9w3XX582M38X4v+sVKFRIWxbg0nFo
++MRw+mTy7jbYhQE3NArsCqapZpQ0tcaK6phWPNXzLbsIFssB6utahtAyLaLnc5+Ez9ZwLNuvQguz
+zqnHoEJTNwt0Xz5lP4nKc59W0A457Op4q8KCTKcszzosJ1uZFlkSFzJ+hMe3roFx1CasZ6BA5dxW
+AVj0+XvLlGaRc9H3sfMs1Dx3F8s30lzPDTvNNgPFpPiVrKY65RXJk+rbN7hvoQZgVNZ/OByaDDzP
+YXw+44d6fOsP3JqqRHc319xwKLR5XqEE/ByaKbdSSFG2wSTMNpFGtYEwqszzKU9L8HvQezLNPSaj
+pziC0vJaYvBcyjt30dr9VqE8ieL3AX8HWQqpML9uCm2f8nrWZTWVld1Wnqr6LvK/O7B2WTMV6psL
+bWw6nfSWqSFIoMPyI1C8C7SMfg3jPSBXVyXITUmSYOV3ytcd50ZdaXS2PcfhfnEWxDqlFWn+H2UD
+3ud6YKo6XE053KMIf+Ugdk2V9ZzTmCouEXstDyeO7rt57J8zQy1H/0Akfd870xMkfsv4FVWDhDj1
+yCSTqm05WqhWGmwdSA2FSZhGfZoJUm3AikDhR0fAOEOVK/2A8esY/8bgXozsPIDx42Gcwh/pX9wa
+GfF/jYAilTo67dzMDDu4HMXmssKxAmuXojLY2CHH64WSQPKNtJZO8HgWHZdHM/5TyX2Hcovj2Yz3
+h12dpXcw/j3j7zK+hPGljP9dBBQDyb+AHXaVz0OLlKLDn5NHG5vttS1Qp4brR12aKjW5JdGFXWMJ
++oG/IVIP6sl9MU16HuNnOj77F8bHlIDEQTA+BOhYKN4nsgfjAznj8YOXMz6J8c+Kph4DSWhkKayA
+PnhGRQPF/XKeAfG6KqAljUBRO4lgrYokFUEiDQgUywqgqCP3xbRoNw6+ezg8ez0HiR8X3IMdHbNy
+u4R/P5fxtxm/n/FHQTi3VFweXQTzXXM6ykCdRahh+Y6F2G+nMsVoGchmKTaVFz0DzDLGyYQ7QTEo
+61rN7/swfi/jEz3Lh30Vs2jhcu0H6KIYcEUBUa5+gRT8A6oyqCYoK1I55TXIN9LaI/9M6XYOADqQ
+OIT7F04MWM63Mn6SyqKgjjov+B5Mdr7pks7YECUZiTET06MM1IFIIeRbNjCopq8miWTWGz0Wxg5G
+WwDH1ZEvaX4/mPFXGD8mcFn35dMPXJ25EwOuim42iaYzXRnpFChLXAadPqlkbSrf+y1ZBly9mP3z
+DUuQwOQ1V2p+R6co5p14YoVVxIjPC8pCuNNAnTiP1sLMUyhZR9LTUyzuRUfiSQUg8XruS9i74jK/
+CS28zVF2kSLVRk8zvA9jGTCY6kLN7zhdO1fhOkBwuRfC7uF6Ok6XIlBEilQf7WdwDx4BuFgAEkfC
+2vNGMVHNFxh/n/GNHCgex/gFjF8dADQwN8ZhESgiRaqPTJLkfo3x5wqmAafDeDMZngD2acYfh/Hu
+UZkQaK6C8c5U335+UASKSJFmh3D/xVma33D14WyYhDS8kvE3S953NrcuTvEs18PjaeaRItVHZSeL
+4yE/31NcxyXVT8LauCdMwGty1geCxT89y70XWhQUNem7CYsyWdscYkyRoAPD+13LavqdBNZGp2Yl
+z+giWXVE72p7tLeqnV3LIdZj5FCeNoTZvEd1akpt7/JuWual94yEd1Whk0qan5/HtsmHw6G4knRj
+wSPYmXXn8uIKhxySjdHLl/DpRxGhjuAO00M8qrN5M2+Y7TAJtnKlFf6uBcNGFk9+3gZmS3NUVlxq
+tQklpn0MWzQgRvta2pqG7mu+p9rMVkT0fQpm2+rQztsVz7qWQ3y+yeVv2jEbjrKQgbkLxRmnBrD2
+sGBdWeg9uj0qpkF91JaL4BhkxkFC1afwiL+XaB5b1fgaAPQpK00GhzvBP5r27jmF0FyIUp3ZjkYk
+wJAnZNkS7ZRtcYXcIvA8BzA585aq45lwLii/y8lgNFoOApVD1fHrOiQI23TI67PE21pu+yWYHMHQ
+LQAb+p0iPeX6Uo7QZS7rhmH5XNtCpytFZ4HiqoXu5HFVkBaudlxqYg2A2wY0ke4QgSJzbByKurQ1
+ETtc4QcOpnNohaUj7CkPIzFtUDOxknIDJqI8jm2HNoOSstiUQx5xE6juSEm5Iy3zdpjn7Z4p2r7H
+LadBAUiswmSf0gLsemYHWYQLMDlNvgwsRmB2nITKmqC0C6r+8EvGf1NcR4C4oeC1X+WgiQlm/g7j
+jFZHFVggImGimv095XXznKS84KAoBC59S4VvCkDRmKJVQT6PtMT8DRnKnAsAaTploNwNVYVVU2Le
+jodlaWpJdrm+mGTppgS6Pc10FwSAKKO+ABYrJd/sC3pqChINoW6qet1QYFXcU2T68/pjDgvM2P0s
+GCebMSHc2PVoT5ldJ+8e7cEkm7GNNWGb2bktOAqpk04DKBqw62lgdVFfmoKZTtWqzNNBm7+6UN0Z
+tMsQ5lwRKmPPUvdocCrLxk3W5bJlmaCgbnh61/mK65sM/VUIND+H8UnlpnS8ZzvfxfjKOUXjjCxG
+lBXhORsHVksyJwegznZUNdGBP60pAIUtQNL0blBxuchxuFLBdJBG6H4ABxu1h8seop4BSJNVYZTe
+n1kT5OPrD4fDorpdpJlmHFaBLDEF3hGe78DcnD+c0yiKyRmKLZgk4bURelsQgji6jqYAFNRhfRy5
+PpQazoXbQgerAzwXwe4oP5tBoszHYvqeJvidRJYZDBA9mDizTayJEQOJMksJg6o+pJhqoI/lwMDt
+jYFWe3q+A484vGuuwDQrc2x2BYeT7UigirUgczCpubMuCibm9pq/3zO0aNqBOphNR+pV4K9IYBLX
+EAJwRp51NDnQp1c2kPDlUJvM9RiiLZ8P+jDGbwvY1ieD31EASOj0RUeqNgYcK0xLTkuazk4xE7bz
+Sp3jk8CpbaBItt75RskIuhUmcRSi/8TUcVjWmYp8OANhvq36Fk3JBgYdw6ccKh2g0+BDOFAbBXW0
+pWYAoMiFd2UlVh/JSDdluq+NmDVhavFhxio8I/QM6fpxvHN+2aNeuMrxHsZv92zj27hFcmcRUIgj
+ikq5uoLlYUMt0Oc9oDl728DR1bScPzcMlGZB8J+0BSBKeXmyknqVTTHKgKID6nyjNk5Mn3Lo/BW0
+QnB/ToOHctnBdWJRsiYI5G3zYH4Gxvs1xIhJ7I/vg7HD0gUEMYPWuQEsCaSLeTmgCChAAIplyXKg
+KL4FB5BolYDAACZH1/VL7rPxmg8NpxSZAJIJ76QdmBxdoCuTTyeSATJXWG+mWcBCd2byV6xyudxf
+kx6TT42sikwYgO4bNKVQbRPCZLnHcrk+Urj+ZBgHWL3TwrLA/ngUt0gOCFBfPIHs3eKFuZLG6cFa
+ry8th/YcTMiO0OANDZN53Z4B5aCM09sEgKyK+qCOJSEn5mDK7UB60PXsbBmEWUnJpCmIz/TFVI9p
+NWhZMdVbdCwDJst9LYwdnCJh7MNF3D+A+rcfjA/vwe3l+3BgOZgDN+42xY1kpwUCCbScjub/GgEF
+CIBADeKyHEoAQ9GXO0u4CXaBSHV1lEaFAKYDSNUK0TSI4iuWwW8peQSTDWDg+R7wfA85VkeW7UAr
+gqbLoWX0Lc0ghLEVL2V8GYyDqy7n1geeu3EFjJctMecExkk8KpCc8QQyPBLgKvmHOcPGIeehy3Io
+WRPY0eR4fhVvFZ6ZFaojC3Qf1p6tIToxZ8E3QH4an/iKVPK7+IB3Bu6h/2SppQ4youXSLrjHcch0
+OhRHiqLvAdPoHcp1BJdRHxJYvjs56CgjR02AQlwudW2YjiDcsn0IFFTUniGgaNQEFLkAkHVEYrr4
+KxolSl1Wx5EwcPhaYU77MYQ2dmnbngDivtYEEZ4Biud9vAPGkZB1E548hg7Qi3U3mCauWQL3U6Jc
+5tk+SmALACYK24LJ/owqO2LKv0U7S2ctXT7pQNvD4us5gk1L8R4a3W2mQ3R/z7FtU/7sAMJmlscA
+rFNhnOfylhpl+kXGL2L8o6KbTIFixKcNA0egsJ1n1+XUxACrYYmiUWxHHSM7OTWXYfpOzKIy9qHY
+uYsgoNuhSc+3wWzLN20zV22BX+CdfbvBoELgRLtWffaaLEF1K0Dod8AzQD8L43iLqug6xm+Bcbbv
+Uquo6pyZicc8W3SeVbVpa0lQ6oEAULlQ9raBYpmOaGUdnyyINkwSrfiMuq7lKCPagZloOmRHKM9A
+8zztKdoBk9iaXHoPxbTojpqk7eUEAJS6IJPeQ7KkYL9FmG1CP8ExHCwwcAp3jD4w0LtvgnFC3nNA
+veV9KkBB1oQLetO6dadCoCAF7IJ68w+Z2mUm5nbD720xAMwBFCenqascZbTAR3rVFCqD8ojHnuD7
+ammsR5P2p2A5mg6p/B8jYcqwnk4+wwHsChgvheIKCGbHegKY5coUCZPc/ATGRw/iKsofbQtCRwo2
+IIxnPdR7qviGyXPi0p1pvkYbp1xeYR2rKEedJLY9gY1rOWnTmI0cncjySEHfz2EcBSahwXiJp8I4
+w/a+XPa7c1cCTldu5eBwPeOrYbxb9VqfD/9PgAEAyGFC2OvrUFcAAAAASUVORK5CYII=</ImageBytes>
+        <ImageTransparency>232</ImageTransparency>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>12/27/2021 11:05:46 AM</ReportChanged>
+  <ReportCreated>12/27/2021 4:38:40 AM</ReportCreated>
+  <ReportFile>C:\Users\erfanmah7\source\repos\bimehejtemaee\bin\Debug\gozaresh.mrt</ReportFile>
+  <ReportGuid>f042d13f4e7c404a88a5fc16d19fe62f</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2019.4.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

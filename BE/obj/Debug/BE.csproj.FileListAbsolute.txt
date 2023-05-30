@@ -1,0 +1,12 @@
+C:\Users\erfanmah7\source\repos\BE\bin\Debug\BE.dll
+C:\Users\erfanmah7\source\repos\BE\bin\Debug\BE.pdb
+C:\Users\erfanmah7\source\repos\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\erfanmah7\source\repos\BE\obj\Debug\BE.dll
+C:\Users\erfanmah7\source\repos\BE\obj\Debug\BE.pdb
+C:\Users\erfanmah7\source\repos\BE\bin\Debug\BE.dll.config
+C:\Users\erfanmah7\source\repos\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\erfanmah7\source\repos\BE\bin\Debug\EntityFramework.dll
+C:\Users\erfanmah7\source\repos\BE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erfanmah7\source\repos\BE\bin\Debug\EntityFramework.xml
+C:\Users\erfanmah7\source\repos\BE\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erfanmah7\source\repos\BE\obj\Debug\BE.csproj.CopyComplete

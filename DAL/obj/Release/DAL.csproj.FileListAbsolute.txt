@@ -1,0 +1,15 @@
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\DAL.dll.config
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\DAL.dll
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\DAL.pdb
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\BE.dll
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\EntityFramework.dll
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\BE.pdb
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\BE.dll.config
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\EntityFramework.xml
+C:\Users\erfanmah7\source\repos\DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\erfanmah7\source\repos\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+C:\Users\erfanmah7\source\repos\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\erfanmah7\source\repos\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\erfanmah7\source\repos\DAL\obj\Release\DAL.dll
+C:\Users\erfanmah7\source\repos\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,15 @@
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\BLL.dll
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\BLL.pdb
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\BE.dll
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\DAL.dll
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\EntityFramework.dll
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\BE.pdb
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\BE.dll.config
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\DAL.pdb
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\DAL.dll.config
+C:\Users\erfanmah7\source\repos\BLL\bin\Release\EntityFramework.xml
+C:\Users\erfanmah7\source\repos\BLL\obj\Release\BLL.csproj.AssemblyReference.cache
+C:\Users\erfanmah7\source\repos\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Users\erfanmah7\source\repos\BLL\obj\Release\BLL.csproj.CopyComplete
+C:\Users\erfanmah7\source\repos\BLL\obj\Release\BLL.dll
+C:\Users\erfanmah7\source\repos\BLL\obj\Release\BLL.pdb
